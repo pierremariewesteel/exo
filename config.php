@@ -4,7 +4,7 @@
 $bdd='exoFdj';
 $sqlServer='127.0.0.1';
 $userSQL='sch1m';
-$mdp='120180';
+$mdp=SECRET_DEFENCE;
 
 try {
 	$pdo = new PDO('mysql:host='.$sqlServer.';dbname='.$bdd, $userSQL, $mdp);
@@ -19,6 +19,6 @@ try {
 }
 
 /******************************************************************************/
-/***************************Config Paramètres globaux**************************/
+/***************************Config ParamÃ¨tres globaux**************************/
 $title='ExoFDJ';
 ?>
